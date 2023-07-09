@@ -1,0 +1,96 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "image": "https://raw.githubusercontent.com/codingwithmuhib/React-food-delivery-app/startup/src/assets/images/product_2.2.jpg",
+      "title": "seafood pizza",
+      "price": 115
+    },
+    {
+      "id": 2,
+      "image": "https://github.com/codingwithmuhib/React-food-delivery-app/blob/startup/src/assets/images/product_2.1.jpg?raw=true",
+      "title": "seafood pizza",
+      "price": 115
+    },
+    {
+      "id": 3,
+      "image": "https://github.com/codingwithmuhib/React-food-delivery-app/blob/startup/src/assets/images/product_2.3.jpg?raw=true",
+      "title": "seafood pizza",
+      "price": 115
+    },
+    {
+      "id": 4,
+      "image": "https://github.com/codingwithmuhib/React-food-delivery-app/blob/startup/src/assets/images/product_3.1.jpg?raw=true",
+      "title": "seafood pizza",
+      "price": 115
+    },
+    {
+      "id": 5,
+      "image": "https://github.com/codingwithmuhib/React-food-delivery-app/blob/startup/src/assets/images/product_3.2.jpg?raw=true",
+      "title": "seafood pizza",
+      "price": 115
+    },
+    {
+      "id": 6,
+      "image": "https://github.com/codingwithmuhib/React-food-delivery-app/blob/startup/src/assets/images/product_3.3.jpg?raw=true",
+      "title": "seafood pizza",
+      "price": 115
+    },
+    {
+      "id": 7,
+      "image": "https://github.com/codingwithmuhib/React-food-delivery-app/blob/startup/src/assets/images/product_4.1.jpg?raw=true",
+      "title": "seafood pizza",
+      "price": 115
+    },
+    {
+      "id": 8,
+      "image": "https://github.com/codingwithmuhib/React-food-delivery-app/blob/startup/src/assets/images/product_4.2.jpg?raw=true",
+      "title": "seafood pizza",
+      "price": 115
+    }
+  ],
+  "burger": [
+    {
+      "id": "a",
+      "image": "https://github.com/codingwithmuhib/React-food-delivery-app/blob/startup/src/assets/images/product_01.1.jpg?raw=true",
+      "title": "Chicken Burger",
+      "price": 70
+    },
+    {
+      "id": "b",
+      "image": "https://github.com/codingwithmuhib/React-food-delivery-app/blob/startup/src/assets/images/product_01.3.jpg?raw=true",
+      "title": "Cheese Burger",
+      "price": 75
+    },
+    {
+      "id": "c",
+      "image": "https://github.com/codingwithmuhib/React-food-delivery-app/blob/startup/src/assets/images/product_01.jpg?raw=true",
+      "title": "Royal Cheese Burger",
+      "price": 80
+    },
+    {
+      "id": "d",
+      "image": "https://github.com/codingwithmuhib/React-food-delivery-app/blob/startup/src/assets/images/product_04.jpg?raw=true",
+      "title": "Classic Hamburger",
+      "price": 70
+    },
+    {
+      "id": "e",
+      "image": "https://github.com/codingwithmuhib/React-food-delivery-app/blob/startup/src/assets/images/product_08.jpg?raw=true",
+      "title": "tasty burger",
+      "price": 85
+    },
+    {
+      "id": "f",
+      "image": "https://github.com/codingwithmuhib/React-food-delivery-app/blob/startup/src/assets/images/product_09.jpg?raw=true",
+      "title": "big tasty burger",
+      "price": 75
+    },
+    {
+      "image": "https://cdn-icons-png.flaticon.com/128/5787/5787016.png",
+      "title": "burger",
+      "price": 44,
+      "id": "XZZm063"
+    }
+  ]
+}

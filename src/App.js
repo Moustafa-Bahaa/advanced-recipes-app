@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+import "primereact/resources/primereact.min.css";
+import Header from './components/header/Header';
+import { Routes, Route } from 'react-router-dom';
+import Food from './components/food/Food';
+import Pizzas from './components/food/Pizzas';
+import Burger from './components/food/Burger';
+import AddPizza from './components/food/add/AddPizza';
+import AddBurger from './components/food/add/AddBurger';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Food/>
+      <div>
+        <Routes>
+          <Route path='/pizza' element={<Pizzas />} />
+          <Route path='/burger' element={<Burger />} />
+          <Route path='/addPizza' element={<AddPizza/>}/>
+          <Route path='/addBurger' element={<AddBurger/>}/>
+        </Routes>
+      </div>
     </div>
   );
 }

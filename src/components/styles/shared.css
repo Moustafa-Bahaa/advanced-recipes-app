@@ -1,0 +1,114 @@
+.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rest-img img {
+  width: 50px;
+  height: 50px;
+}
+.rest-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rest-img span {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.main {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.main a {
+  text-decoration: none;
+  color: black;
+}
+.cart-icon {
+  position: relative;
+}
+.cart-icon img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.cart-icon span {
+  position: absolute;
+  top: -2px;
+}
+.recipes-content{
+    margin: 4rem auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.recipes-container{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-gap: 2.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.total-price{
+  margin: 2rem auto;
+}
+.food{
+  display: flex;
+  flex-direction: column;
+}
+.food .addPizza{
+  justify-content: end;
+}
+
+.categories{
+  width: 75%;
+  margin: auto;
+  margin-top: 2rem;
+  justify-content: center;
+  display: flex ;
+}
+.categories button{
+  display: flex;
+  align-items: center ;
+  padding: 10px;
+  justify-content: center;
+  margin: 0 1rem;
+  font-size: large;
+  color: #000;
+  background-color: inherit;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.categories button img{
+  width: 60px;
+  padding: 0 10px;
+}
+
+/*  add component* */
+.add-form{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 50%;
+  margin: auto;
+}
+.form-inputs{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.form-inputs input{
+  margin: 10px 0;
+}
+.add-options Button{
+  margin: 0 10px ;
+}
+.add{
+  margin-top: 2rem;
+}
